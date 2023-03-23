@@ -62,11 +62,16 @@ body {
 }
 
 #checkBox {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    left: 0px;
+}
+
+#item {
     display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-bottom: 0;
-    scale: 35%;
+    align-items: center;
+    height: 25px;
 }
 
 input {
